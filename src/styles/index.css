@@ -1,4 +1,3 @@
-
 /* 
 
     You can write your own styles here...
@@ -10,3 +9,48 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.task-title {
+    font-family: "Montserrat", sans-serif;
+    color: lightsteelblue;
+  }
+  .efecto-pagina-2,
+  .efecto-pagina-3 {
+    border: solid rgb(217, 224, 226);
+  }
+
+@media (hover: hover) {
+  .task-body-out:hover {
+    background-color: lightgray;
+  }
+}
+@media (hover: hover) {
+  .delete:hover {
+    background-color: lightsteelblue;
+  }
+}
+
+ul{
+    list-style: none;
+}
+
+.task-in{
+    font-size: x-large;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+  }
+  .task-in::placeholder{
+    color: darkgray;
+  }
+
+  .task-body-out {
+    height: auto;
+    font-size: x-large;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    word-wrap: break-word
+  }
+
+  .task-body {
+    border: solid rgb(217, 224, 226);
+  }
