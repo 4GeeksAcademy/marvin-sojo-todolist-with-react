@@ -24,6 +24,7 @@ const TodoList = () => {
           className="task-in container form-control rounded-0"
           type="text"
           onKeyUp={(e) => handleKeyUp(e)}
+          placeholder={tasks == ""?  "No hay tareas, añadir tareas" : ""}
         />
         <ul className="container task-body px-1 m-0 justify-content-center">
           {tasks.map((task, index) => {
